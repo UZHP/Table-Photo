@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212639;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+a:hover {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+}
+
+.headSection {
+    margin: 20px 20px 0 20px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.headText {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.allTable {
+    width: -webkit-fill-available;
+    margin: 40px 80px 0;
+}
+
+.tableTag {
+    color: #7BB8D3;
+}
+
+.headWord {
+    color: #F4F187;
+}
+
+.captionHead {
+    color: #C6717A;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.dark {
+    color: #384C60;
+    margin: 0 2.5px;
+}
+
+.theadSection {
+    color: #384C60;
+    font-weight: bold;
+    text-align: left;
+}
+
+.thSection {
+    background-color: transparent;
+    padding: 25px 30px;
+}
+
+.darkTr {
+    background-color: #2D3446 !important;
+}
+
+.disTdText,
+.tdSection {
+    background-color: #353C4E;
+    padding: 25px 30px;
+}
+
+.disTdText {
+    color: #C6717A;
+    font-weight: bold;
+}
+
+.tbodySection {
+    color: #CCC;
+}
