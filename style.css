@@ -95,3 +95,13 @@ a:hover {
 .tbodySection {
     color: #CCC;
 }
+
+.disTdText:hover ~ .tdSection {
+    color: #403E10 !important;
+    background-color: #FFF842 !important;
+}
+
+.disTdText:hover, .darkTr:hover, .thSection:hover, .tdSection:hover, .theadSection:hover {
+    color: #403E10 !important;
+    background-color: #FFF842 !important;
+}
