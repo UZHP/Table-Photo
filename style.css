@@ -14,11 +14,13 @@ body {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    cursor: url(https://i.postimg.cc/W3sMYzZ9/5.png), default !important;
 }
 
 a {
     all: unset;
-    cursor: pointer;
+    /* cursor: pointer; */
+    cursor: url(https://i.postimg.cc/4dTKNxQz/1p.png), pointer !important;
 }
 
 a:hover {
@@ -43,6 +45,7 @@ a:hover {
 .allTable {
     width: -webkit-fill-available;
     margin: 40px 80px 0;
+    border-spacing: 2px;
 }
 
 .tableTag {
@@ -75,7 +78,14 @@ a:hover {
 .thSection {
     background-color: transparent;
     padding: 25px 30px;
+    /* border: 1px solid #384C60;
+    border-bottom: 0;
+    border-right: 0; */
 }
+
+/* .thSection:nth-last-child(1) {
+    border-right: 1px solid #384C60;
+} */
 
 .darkTr {
     background-color: #2D3446 !important;
@@ -101,7 +111,29 @@ a:hover {
     background-color: #FFF842 !important;
 }
 
-.disTdText:hover, .darkTr:hover, .thSection:hover, .tdSection:hover, .theadSection:hover {
+.disTdText:hover, .darkTr:hover, .theadSection:hover .thSection, .tdSection:hover, .theadSection:hover {
     color: #403E10 !important;
     background-color: #FFF842 !important;
+    /* border: none; */
 }
+
+/* .thSection {
+    transform-origin: top right;
+    transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -ms-transition: transform .5s ease-in-out;
+    -o-transition: transform .5s ease-in-out;
+}
+
+.thSection:hover {
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+} */
+
+/* td {
+    border: 0px solid #212639;
+} */
